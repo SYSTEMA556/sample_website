@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.wordWrap": "on"
+}
+{
+    // ...(省略)...
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "foreground": "#666",
+            "fontStyle": "italic",
+        },
+        "functions": "#8df",
+        "keywords": "#dbf",
+        "numbers": "#f99",
+        "strings": "#df8",
+        "types": "#fb6",
+        "variables": "#ddd",
+    },
+}

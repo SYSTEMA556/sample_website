@@ -1,0 +1,11 @@
+2024-09-07 11:38:10.618 [info] 
+
+
+
+
+2024-09-07 11:38:10.662 [info] Extension host agent started.
+2024-09-07 11:38:10.822 [info] [127.0.0.1][3e89b88d][ManagementConnection] New connection established.
+2024-09-07 11:38:11.340 [info] [127.0.0.1][d4fcd7ba][ExtensionHostConnection] New connection established.
+2024-09-07 11:38:11.450 [info] [127.0.0.1][d4fcd7ba][ExtensionHostConnection] <492> Launched Extension Host Process.
+2024-09-07 11:38:11.571 [info] [127.0.0.1][d4fcd7ba][ExtensionHostConnection] <492><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/4d5d8f4bd9b8c011e8a5670f0c8754b2.ja/4849ca9bdf9666755eb463db297b69e5385090e3/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/4d5d8f4bd9b8c011e8a5670f0c8754b2.ja/4849ca9bdf9666755eb463db297b69e5385090e3/nls.messages.json'
+

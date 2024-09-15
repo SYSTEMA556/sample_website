@@ -1,0 +1,19 @@
+2024-09-06 22:12:05.942 [info] 
+
+
+
+
+2024-09-06 22:12:05.972 [info] Extension host agent started.
+2024-09-06 22:12:06.124 [info] [127.0.0.1][805774f7][ManagementConnection] New connection established.
+2024-09-06 22:12:06.564 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-ja /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.92.2024081409
+2024-09-06 22:12:06.600 [info] [127.0.0.1][8e95818c][ExtensionHostConnection] New connection established.
+2024-09-06 22:12:06.686 [info] [127.0.0.1][8e95818c][ExtensionHostConnection] <464> Launched Extension Host Process.
+2024-09-06 22:12:07.666 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.92.2024081409.601cb772.vsctmp'
+    at S.create (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/server/node/server.main.js:115:100109)
+    at I (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/server/node/server.main.js:115:100224)
+    at b.hb (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/server/node/server.main.js:120:35948)
+    at b.stat (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/server/node/server.main.js:120:28268)
+    at async i.stat (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/server/node/server.main.js:120:14173)
+    at async V.ub (/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/out/vs/server/node/server.main.js:172:82611)
+2024-09-06 23:09:25.313 [info] [127.0.0.1][805774f7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-06 23:09:25.417 [info] [127.0.0.1][8e95818c][ExtensionHostConnection] <464> Extension Host Process exited with code: 0, signal: null.

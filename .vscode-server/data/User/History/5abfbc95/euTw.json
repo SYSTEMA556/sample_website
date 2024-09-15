@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "never"
+}
