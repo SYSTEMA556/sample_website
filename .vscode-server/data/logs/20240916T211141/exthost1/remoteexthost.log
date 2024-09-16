@@ -73,3 +73,4 @@
 	at ChildProcess.<anonymous> (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1031629)
 	at ChildProcess.emit (node:events:531:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-09-16 22:29:08.441 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
