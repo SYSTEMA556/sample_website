@@ -1,0 +1,78 @@
+2024-09-16 21:11:46.207 [info] [main] ログ レベル: Info
+2024-09-16 21:11:46.207 [info] [main] Git の検証が検出されました: "git"
+2024-09-16 21:11:46.207 [info] [main] "git" から Git "2.34.1" を使用しています
+2024-09-16 21:11:46.207 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-16 21:11:46.221 [info] > git rev-parse --show-toplevel [17ms]
+2024-09-16 21:11:46.252 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2024-09-16 21:11:46.293 [info] [Model][openRepository] Opened repository: /root
+2024-09-16 21:11:46.321 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:11:46.324 [info] > git rev-parse --show-toplevel [10ms]
+2024-09-16 21:11:46.328 [info] > git config --get commit.template [23ms]
+2024-09-16 21:11:46.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-09-16 21:11:46.351 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-16 21:11:46.362 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-16 21:11:46.380 [info] > git rev-parse --show-toplevel [12ms]
+2024-09-16 21:11:46.414 [info] > git rev-parse --show-toplevel [25ms]
+2024-09-16 21:11:46.427 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-16 21:11:46.447 [info] [Model][openRepository] Opened repository: /root/.rbenv
+2024-09-16 21:11:46.474 [info] > git config --get commit.template [11ms]
+2024-09-16 21:11:46.478 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-16 21:11:46.519 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-16 21:11:46.534 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [49ms]
+2024-09-16 21:11:46.542 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-09-16 21:11:46.550 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2024-09-16 21:11:46.557 [info] > git rev-parse --show-toplevel [24ms]
+2024-09-16 21:11:46.589 [info] > git rev-parse --show-toplevel [24ms]
+2024-09-16 21:11:46.605 [info] > git status -z -uall [49ms]
+2024-09-16 21:11:46.605 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-16 21:11:46.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2024-09-16 21:11:46.661 [info] > git rev-parse --show-toplevel [17ms]
+2024-09-16 21:11:46.663 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2024-09-16 21:11:46.679 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-16 21:11:46.694 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-16 21:11:46.743 [info] > git show --textconv 1fcb9881648c902d72556e3becde73790f4dbcfc:libexec/rbenv-init [43ms]
+2024-09-16 21:11:46.743 [info] > git show --textconv af03af9593907d764708a585a114f6027a16fdbd:libexec/rbenv-init [38ms]
+2024-09-16 21:11:46.743 [info] > git show --textconv 1fcb9881648c902d72556e3becde73790f4dbcfc:test/init.bats [32ms]
+2024-09-16 21:11:46.744 [info] > git show --textconv af03af9593907d764708a585a114f6027a16fdbd:test/init.bats [27ms]
+2024-09-16 21:11:46.744 [info] > git ls-tree -l 1fcb9881648c902d72556e3becde73790f4dbcfc -- /root/.rbenv/test/init.bats [13ms]
+2024-09-16 21:11:46.746 [info] > git ls-tree -l af03af9593907d764708a585a114f6027a16fdbd -- /root/.rbenv/libexec/rbenv-init [20ms]
+2024-09-16 21:11:46.748 [info] > git ls-tree -l 1fcb9881648c902d72556e3becde73790f4dbcfc -- /root/.rbenv/libexec/rbenv-init [26ms]
+2024-09-16 21:11:46.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [87ms]
+2024-09-16 21:11:46.776 [info] > git merge-base refs/heads/master refs/remotes/origin/master [10ms]
+2024-09-16 21:11:46.782 [info] > git ls-tree -l af03af9593907d764708a585a114f6027a16fdbd -- /root/.rbenv/test/init.bats [46ms]
+2024-09-16 21:11:46.793 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [10ms]
+2024-09-16 21:11:46.805 [info] > git diff --name-status -z --diff-filter=ADMR c335ab83de40d48093870d300de52c61bbd68359...refs/remotes/origin/master [5ms]
+2024-09-16 21:11:47.214 [info] > git status -z -uall [865ms]
+2024-09-16 21:11:47.214 [info] > git check-ignore -v -z --stdin [30ms]
+2024-09-16 21:11:47.310 [info] > git check-ignore -v -z --stdin [120ms]
+2024-09-16 21:11:47.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2024-09-16 21:11:47.330 [info] > git config --get commit.template [118ms]
+2024-09-16 21:11:47.499 [info] > git config --local branch.main.vscode-merge-base [170ms]
+2024-09-16 21:11:47.501 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-16 21:11:47.508 [info] > git config --get commit.template [200ms]
+2024-09-16 21:11:47.572 [info] > git reflog main --grep-reflog=branch: Created from *. [64ms]
+2024-09-16 21:11:47.583 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:11:47.586 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-09-16 21:11:47.596 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-09-16 21:11:47.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-09-16 21:11:47.605 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [28ms]
+2024-09-16 21:11:47.605 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-16 21:11:47.607 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2024-09-16 21:11:47.630 [info] > git status -z -uall [9ms]
+2024-09-16 21:11:47.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-16 21:11:47.661 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-09-16 21:11:47.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2024-09-16 21:11:47.705 [info] > git status -z -uall [101ms]
+2024-09-16 21:11:47.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-16 21:11:47.730 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-16 21:11:47.730 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-16 21:11:47.756 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2024-09-16 21:11:47.764 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-16 21:11:47.764 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-16 21:11:58.914 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-16 21:12:01.720 [info] > git check-ignore -v -z --stdin [6ms]
+2024-09-16 21:12:49.846 [info] > git check-ignore -v -z --stdin [8ms]
+2024-09-16 21:12:51.338 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-16 21:12:55.533 [info] > git show --textconv :repos/sample_website/index.html [7ms]
+2024-09-16 21:12:55.689 [info] > git ls-files --stage -- /root/repos/sample_website/index.html [159ms]
+2024-09-16 21:12:55.716 [info] > git cat-file -s 6a3972221f43dac1f8f101b5067d69d2c14052ef [24ms]

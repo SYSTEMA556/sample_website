@@ -13,3 +13,6 @@
 2024-09-16 21:06:18.138 [info] ExtensionService#_doActivateExtension igordvlpr.open-in-browser, startup: false, activationEvent: 'onLanguage:html'
 2024-09-16 21:06:18.139 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
 2024-09-16 21:06:55.360 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-09-16 21:10:14.025 [info] Extension host terminating: received terminate message from renderer
+2024-09-16 21:10:14.026 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/988611df70b6445afdd99de613fad909/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-16 21:10:14.144 [info] Extension host with pid 7499 exiting with code 0
