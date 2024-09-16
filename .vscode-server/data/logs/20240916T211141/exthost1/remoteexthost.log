@@ -11,3 +11,7 @@
 2024-09-16 21:12:54.966 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
 2024-09-16 21:12:54.967 [info] ExtensionService#_doActivateExtension george-alisson.html-preview-vscode, startup: false, activationEvent: 'onLanguage:html'
 2024-09-16 21:12:54.968 [info] ExtensionService#_doActivateExtension igordvlpr.open-in-browser, startup: false, activationEvent: 'onLanguage:html'
+2024-09-16 21:13:10.252 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-09-16 21:13:15.640 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-16 21:13:15.641 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-16 21:13:15.641 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
