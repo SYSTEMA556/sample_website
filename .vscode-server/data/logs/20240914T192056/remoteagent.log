@@ -1,0 +1,18 @@
+2024-09-14 19:20:56.429 [info] 
+
+
+
+
+2024-09-14 19:20:56.450 [info] Extension host agent started.
+2024-09-14 19:20:56.563 [info] [127.0.0.1][c05d61d1][ManagementConnection] New connection established.
+2024-09-14 19:20:57.527 [info] [127.0.0.1][826e80e9][ExtensionHostConnection] New connection established.
+2024-09-14 19:20:57.556 [info] [127.0.0.1][826e80e9][ExtensionHostConnection] <448> Launched Extension Host Process.
+2024-09-14 19:20:57.745 [info] [127.0.0.1][826e80e9][ExtensionHostConnection] <448><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/fdd0e67cf1d39a52c86acbf808f41f38.ja/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/fdd0e67cf1d39a52c86acbf808f41f38.ja/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/nls.messages.json'
+
+2024-09-14 20:58:53.154 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-14 20:58:53.181 [info] [127.0.0.1][c05d61d1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-14 20:58:59.767 [info] [127.0.0.1][c05d61d1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-09-14 20:58:59.770 [info] [127.0.0.1][c05d61d1][ManagementConnection] The client has reconnected.
+2024-09-14 20:59:16.152 [info] [127.0.0.1][826e80e9][ExtensionHostConnection] The client has reconnected.
+2024-09-14 23:25:43.377 [info] [127.0.0.1][c05d61d1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-14 23:25:44.151 [info] [127.0.0.1][826e80e9][ExtensionHostConnection] <448> Extension Host Process exited with code: 0, signal: null.

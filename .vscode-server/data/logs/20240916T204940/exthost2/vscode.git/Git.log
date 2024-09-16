@@ -1,0 +1,135 @@
+2024-09-16 21:01:05.474 [info] [main] ログ レベル: Info
+2024-09-16 21:01:05.474 [info] [main] Git の検証が検出されました: "git"
+2024-09-16 21:01:05.474 [info] [main] "git" から Git "2.34.1" を使用しています
+2024-09-16 21:01:05.474 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-16 21:01:05.474 [info] [Model][openRepository] Opened repository: /root
+2024-09-16 21:01:05.474 [info] > git config --get commit.template [2ms]
+2024-09-16 21:01:05.474 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:01:05.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-16 21:01:05.474 [info] [Model][openRepository] Opened repository: /root/.rbenv
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-16 21:01:05.474 [info] > git config --get commit.template [9ms]
+2024-09-16 21:01:05.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-09-16 21:01:05.474 [info] > git rev-parse --show-toplevel [20ms]
+2024-09-16 21:01:05.477 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-09-16 21:01:05.491 [info] > git status -z -uall [122ms]
+2024-09-16 21:01:05.491 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2024-09-16 21:01:05.499 [info] [Model][openRepository] Opened repository: /root/NEWplogram
+2024-09-16 21:01:05.501 [info] > git rev-parse refs/remotes/origin/master [24ms]
+2024-09-16 21:01:06.594 [info] > git status -z -uall [1090ms]
+2024-09-16 21:01:06.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1042ms]
+2024-09-16 21:01:06.601 [info] > git rev-parse --show-toplevel [1089ms]
+2024-09-16 21:01:06.603 [info] > git config --get commit.template [1094ms]
+2024-09-16 21:01:06.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [36ms]
+2024-09-16 21:01:06.657 [info] > git config --local branch.main.vscode-merge-base [54ms]
+2024-09-16 21:01:06.658 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-16 21:01:06.665 [info] > git config --get commit.template [125ms]
+2024-09-16 21:01:06.674 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:01:06.684 [info] > git config --local branch.master.vscode-merge-base [32ms]
+2024-09-16 21:01:06.684 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-16 21:01:06.690 [info] > git config --get commit.template [49ms]
+2024-09-16 21:01:06.690 [info] > git rev-parse --show-toplevel [56ms]
+2024-09-16 21:01:06.696 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:01:06.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-09-16 21:01:06.702 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:01:06.707 [info] > git reflog main --grep-reflog=branch: Created from *. [42ms]
+2024-09-16 21:01:06.721 [info] > git status -z -uall [15ms]
+2024-09-16 21:01:06.722 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2024-09-16 21:01:06.722 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-16 21:01:06.732 [info] > git rev-parse --show-toplevel [31ms]
+2024-09-16 21:01:06.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2024-09-16 21:01:06.736 [info] > git reflog master --grep-reflog=branch: Created from *. [47ms]
+2024-09-16 21:01:06.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-09-16 21:01:06.756 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:01:06.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [40ms]
+2024-09-16 21:01:06.763 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-09-16 21:01:06.766 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-16 21:01:06.766 [info] > git config --get commit.template [17ms]
+2024-09-16 21:01:06.766 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [26ms]
+2024-09-16 21:01:06.785 [info] > git rev-parse refs/remotes/origin/master [22ms]
+2024-09-16 21:01:06.795 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:01:06.796 [info] > git status -z -uall [7ms]
+2024-09-16 21:01:06.796 [info] > git rev-parse --show-toplevel [13ms]
+2024-09-16 21:01:06.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [19ms]
+2024-09-16 21:01:06.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-09-16 21:01:06.809 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:01:06.837 [info] > git status -z -uall [24ms]
+2024-09-16 21:01:06.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-09-16 21:01:06.851 [info] > git rev-parse --show-toplevel [44ms]
+2024-09-16 21:01:06.856 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-16 21:01:06.857 [info] > git config --local branch.master.vscode-merge-base origin/master [54ms]
+2024-09-16 21:01:06.872 [info] > git status -z -uall [136ms]
+2024-09-16 21:01:06.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-09-16 21:01:06.873 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:01:06.873 [info] > git config --local branch.master.vscode-merge-base [30ms]
+2024-09-16 21:01:07.058 [info] > git config --get commit.template [196ms]
+2024-09-16 21:01:08.303 [info] > git check-ignore -v -z --stdin [34ms]
+2024-09-16 21:01:08.306 [info] > git check-ignore -v -z --stdin [21ms]
+2024-09-16 21:01:08.306 [info] > git check-ignore -v -z --stdin [17ms]
+2024-09-16 21:01:08.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1233ms]
+2024-09-16 21:01:08.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1435ms]
+2024-09-16 21:01:08.347 [info] > git merge-base refs/heads/master refs/remotes/origin/master [28ms]
+2024-09-16 21:01:08.352 [info] > git config --local branch.main.vscode-merge-base [39ms]
+2024-09-16 21:01:08.352 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-16 21:01:08.358 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [7ms]
+2024-09-16 21:01:08.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2024-09-16 21:01:08.373 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-09-16 21:01:08.401 [info] > git reflog main --grep-reflog=branch: Created from *. [46ms]
+2024-09-16 21:01:08.406 [info] > git rev-parse refs/remotes/origin/master [33ms]
+2024-09-16 21:01:08.411 [info] > git diff --name-status -z --diff-filter=ADMR c335ab83de40d48093870d300de52c61bbd68359...refs/remotes/origin/master [43ms]
+2024-09-16 21:01:08.413 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-09-16 21:01:08.413 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-16 21:01:08.414 [info] > git status -z -uall [4ms]
+2024-09-16 21:01:08.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-16 21:01:08.429 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-09-16 21:01:08.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-09-16 21:01:27.275 [info] > git check-ignore -v -z --stdin [8ms]
+2024-09-16 21:01:29.329 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-16 21:01:30.340 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-16 21:01:33.716 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-16 21:02:00.040 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:02:00.040 [info] > git config --get commit.template [5ms]
+2024-09-16 21:02:00.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-16 21:02:00.041 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:02:00.048 [info] > git status -z -uall [3ms]
+2024-09-16 21:02:00.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-16 21:02:00.055 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:02:12.905 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:02:12.909 [info] > git config --get commit.template [19ms]
+2024-09-16 21:02:12.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-09-16 21:02:12.911 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:02:12.924 [info] > git status -z -uall [4ms]
+2024-09-16 21:02:12.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-16 21:02:12.936 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:02:41.402 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:02:41.403 [info] > git config --get commit.template [6ms]
+2024-09-16 21:02:41.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-16 21:02:41.403 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:02:41.408 [info] > git status -z -uall [1ms]
+2024-09-16 21:02:41.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-16 21:02:41.415 [warning] [Git][getBranch] No such branch: main
+2024-09-16 21:03:03.411 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-16 21:04:15.611 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/root/NEWplogram/.git/HEAD'
+2024-09-16 21:04:15.620 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/root/NEWplogram/.git/config'
+2024-09-16 21:04:15.634 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/root/NEWplogram/.git/HEAD'
+2024-09-16 21:04:15.643 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/root/NEWplogram/.git/config'
+2024-09-16 21:04:15.766 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-16 21:04:15.767 [info] > git config --get commit.template [5ms]
+2024-09-16 21:04:15.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-16 21:04:15.848 [info] > git status -z -uall [76ms]
+2024-09-16 21:04:16.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [795ms]
+2024-09-16 21:04:16.694 [info] > git check-ignore -v -z --stdin [8ms]
+2024-09-16 21:04:16.695 [info] > git config --local branch.main.vscode-merge-base [27ms]
+2024-09-16 21:04:16.695 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-16 21:04:16.702 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-16 21:04:16.704 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-16 21:04:16.710 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-16 21:04:16.710 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
