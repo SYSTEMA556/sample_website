@@ -1,0 +1,14 @@
+2024-09-16 21:06:12.860 [info] Extension host with pid 7499 started
+2024-09-16 21:06:12.914 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/988611df70b6445afdd99de613fad909/vscode.lock': Lock acquired.
+2024-09-16 21:06:12.948 [info] ExtensionService#_doActivateExtension george-alisson.html-preview-vscode, startup: false, activationEvent: 'onWebviewPanel:html.preview'
+2024-09-16 21:06:13.368 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-16 21:06:13.845 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-16 21:06:13.846 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-16 21:06:14.501 [info] Eager extensions activated
+2024-09-16 21:06:14.502 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-16 21:06:14.504 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-16 21:06:14.504 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-09-16 21:06:15.329 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-09-16 21:06:18.137 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-16 21:06:18.138 [info] ExtensionService#_doActivateExtension igordvlpr.open-in-browser, startup: false, activationEvent: 'onLanguage:html'
+2024-09-16 21:06:18.139 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
