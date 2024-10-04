@@ -1,0 +1,138 @@
+2024-09-28 20:40:14.183 [info] [main] ログ レベル: Info
+2024-09-28 20:40:14.183 [info] [main] Git の検証が検出されました: "git"
+2024-09-28 20:40:14.183 [info] [main] "git" から Git "2.34.1" を使用しています
+2024-09-28 20:40:14.183 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-28 20:40:14.183 [info] > git rev-parse --show-toplevel [48ms]
+2024-09-28 20:40:14.183 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-28 20:40:14.183 [info] [Model][openRepository] Opened repository: /root
+2024-09-28 20:40:14.183 [info] > git rev-parse --show-toplevel [56ms]
+2024-09-28 20:40:14.183 [info] > git rev-parse --show-toplevel [37ms]
+2024-09-28 20:40:14.183 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 20:40:14.183 [info] > git rev-parse --show-toplevel [10ms]
+2024-09-28 20:40:14.183 [info] > git config --get commit.template [179ms]
+2024-09-28 20:40:14.183 [info] > git rev-parse --show-toplevel [23ms]
+2024-09-28 20:40:14.183 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2024-09-28 20:40:14.184 [info] [Model][openRepository] Opened repository: /root/.rbenv
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [175ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [13ms]
+2024-09-28 20:40:14.184 [info] > git config --get commit.template [23ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [10ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2024-09-28 20:40:14.184 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [14ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2024-09-28 20:40:14.184 [info] [Model][openRepository] Opened repository: /root/repos
+2024-09-28 20:40:14.184 [info] > git status -z -uall [92ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [39ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [71ms]
+2024-09-28 20:40:14.184 [info] > git config --get commit.template [75ms]
+2024-09-28 20:40:14.184 [info] > git config --get commit.template [27ms]
+2024-09-28 20:40:14.184 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 20:40:14.184 [info] > git config --local branch.master.vscode-merge-base [18ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-09-28 20:40:14.184 [warning] [Git][getBranch] No such branch: main
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [39ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [29ms]
+2024-09-28 20:40:14.184 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-09-28 20:40:14.184 [info] > git status -z -uall [26ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2024-09-28 20:40:14.184 [info] [Model][openRepository] Opened repository: /root/sample_website
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2024-09-28 20:40:14.184 [warning] [Git][getBranch] No such branch: main
+2024-09-28 20:40:14.184 [info] > git rev-parse refs/remotes/origin/master [75ms]
+2024-09-28 20:40:14.184 [info] > git merge-base refs/heads/master refs/remotes/origin/master [90ms]
+2024-09-28 20:40:14.184 [info] > git status -z -uall [14ms]
+2024-09-28 20:40:14.184 [info] > git config --get commit.template [44ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [48ms]
+2024-09-28 20:40:14.184 [info] > git config --get commit.template [53ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [99ms]
+2024-09-28 20:40:14.184 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [120ms]
+2024-09-28 20:40:14.184 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 20:40:14.184 [info] > git config --local branch.master.vscode-merge-base [25ms]
+2024-09-28 20:40:14.184 [info] > git rev-parse --show-toplevel [38ms]
+2024-09-28 20:40:14.184 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [15ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-09-28 20:40:14.184 [warning] [Git][getBranch] No such branch: main
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-09-28 20:40:14.184 [info] > git diff --name-status -z --diff-filter=ADMR c335ab83de40d48093870d300de52c61bbd68359...refs/remotes/origin/master [43ms]
+2024-09-28 20:40:14.184 [info] > git status -z -uall [10ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-28 20:40:14.184 [warning] [Git][getBranch] No such branch: main
+2024-09-28 20:40:14.184 [info] > git status -z -uall [21ms]
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-09-28 20:40:14.184 [info] > git config --get commit.template [10ms]
+2024-09-28 20:40:14.184 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-09-28 20:40:14.184 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-28 20:40:14.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-09-28 20:40:14.184 [info] > git reflog main --grep-reflog=branch: Created from *. [20ms]
+2024-09-28 20:40:14.184 [info] > git status -z -uall [13ms]
+2024-09-28 20:40:14.184 [info] > git status -z -uall [649ms]
+2024-09-28 20:40:14.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-09-28 20:40:14.185 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [46ms]
+2024-09-28 20:40:14.185 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-28 20:40:14.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [98ms]
+2024-09-28 20:40:14.185 [info] > git config --local branch.main.vscode-merge-base [120ms]
+2024-09-28 20:40:14.185 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-28 20:40:14.185 [info] > git reflog main --grep-reflog=branch: Created from *. [194ms]
+2024-09-28 20:40:14.185 [info] > git config --local branch.main.vscode-merge-base [208ms]
+2024-09-28 20:40:14.185 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-28 20:40:14.185 [info] > git config --get commit.template [242ms]
+2024-09-28 20:40:14.209 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [36ms]
+2024-09-28 20:40:14.209 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-28 20:40:14.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-28 20:40:14.234 [info] > git reflog main --grep-reflog=branch: Created from *. [54ms]
+2024-09-28 20:40:14.249 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-28 20:40:14.249 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-28 20:40:14.518 [info] > git status -z -uall [294ms]
+2024-09-28 20:40:14.519 [info] > git check-ignore -v -z --stdin [47ms]
+2024-09-28 20:40:14.549 [info] > git merge-base refs/heads/main refs/remotes/origin/main [296ms]
+2024-09-28 20:40:14.570 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [17ms]
+2024-09-28 20:40:14.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2024-09-28 20:40:14.593 [info] > git diff --name-status -z --diff-filter=ADMR bd9d16f278f7c1f9d552dfe2d34230c84e18e4f0...refs/remotes/origin/main [17ms]
+2024-09-28 20:40:14.597 [info] > git config --local branch.main.vscode-merge-base [17ms]
+2024-09-28 20:40:14.597 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-28 20:40:14.604 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-28 20:40:14.609 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-28 20:40:14.609 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-28 20:40:31.080 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-28 20:40:32.177 [info] > git show --textconv :SYSTEMA556.github.io/index.html [366ms]
+2024-09-28 20:40:32.177 [info] > git ls-files --stage -- /root/repos/SYSTEMA556.github.io/index.html [359ms]
+2024-09-28 20:47:47.078 [info] > git show --textconv :SYSTEMA556.github.io/index.html [6ms]
+2024-09-28 20:47:47.081 [info] > git ls-files --stage -- /root/repos/SYSTEMA556.github.io/index.html [3ms]
+2024-09-28 21:11:06.591 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-28 21:11:06.593 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-28 21:11:06.593 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-28 21:11:06.594 [info] > git check-ignore -v -z --stdin [17ms]
+2024-09-28 21:16:42.664 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-28 21:44:39.499 [info] > git config --get commit.template [7ms]
+2024-09-28 21:44:39.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-28 21:44:39.572 [info] > git status -z -uall [67ms]
+2024-09-28 21:44:39.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-09-28 21:44:39.634 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-28 21:44:39.635 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-28 21:44:39.640 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-28 21:44:39.644 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-28 21:44:39.644 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-28 21:44:52.982 [info] > git config --get commit.template [4ms]
+2024-09-28 21:44:52.984 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-28 21:44:53.032 [info] > git status -z -uall [44ms]
+2024-09-28 21:44:53.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-09-28 21:44:53.065 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-28 21:44:53.065 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-28 21:44:53.070 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-28 21:44:53.074 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-28 21:44:53.074 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-28 21:44:53.084 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2024-09-28 21:44:53.089 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-09-28 21:44:53.094 [info] > git diff --name-status -z --diff-filter=ADMR bd9d16f278f7c1f9d552dfe2d34230c84e18e4f0...refs/remotes/origin/main [1ms]
+2024-09-28 21:47:41.562 [info] > git check-ignore -v -z --stdin [15ms]
+2024-09-28 21:50:04.074 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-28 21:50:15.717 [info] > git show --textconv :SYSTEMA556.github.io/index.html [4ms]
+2024-09-28 21:50:15.721 [info] > git ls-files --stage -- /root/repos/SYSTEMA556.github.io/index.html [4ms]
+2024-09-28 22:01:37.485 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-28 22:01:40.138 [info] > git check-ignore -v -z --stdin [5ms]

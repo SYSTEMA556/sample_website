@@ -1,0 +1,15 @@
+2024-10-03 22:52:16.572 [info] 
+
+
+
+
+2024-10-03 22:52:16.596 [info] Extension host agent started.
+2024-10-03 22:52:16.738 [info] [127.0.0.1][f7d7adc4][ManagementConnection] New connection established.
+2024-10-03 22:52:17.077 [info] [127.0.0.1][cac70f78][ExtensionHostConnection] New connection established.
+2024-10-03 22:52:17.496 [info] [127.0.0.1][cac70f78][ExtensionHostConnection] <494> Launched Extension Host Process.
+2024-10-03 22:52:17.745 [info] [127.0.0.1][cac70f78][ExtensionHostConnection] <494><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/fdd0e67cf1d39a52c86acbf808f41f38.ja/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/fdd0e67cf1d39a52c86acbf808f41f38.ja/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/nls.messages.json'
+
+2024-10-03 22:52:30.578 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/root/.vscode-server/data/logs/20240920T192904/exthost1/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /root)
+2024-10-03 22:52:30.579 [error] [File Watcher (universal)] inotify_add_watch on '/root/.vscode-server/data/logs/20240920T192904/exthost1/vscode.git' failed: No such file or directory
+2024-10-03 23:24:12.575 [info] [127.0.0.1][f7d7adc4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-03 23:24:12.822 [info] [127.0.0.1][cac70f78][ExtensionHostConnection] <494> Extension Host Process exited with code: 0, signal: null.

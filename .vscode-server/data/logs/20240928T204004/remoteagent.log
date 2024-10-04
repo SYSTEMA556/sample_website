@@ -1,0 +1,13 @@
+2024-09-28 20:40:04.236 [info] 
+
+
+
+
+2024-09-28 20:40:04.272 [info] Extension host agent started.
+2024-09-28 20:40:04.491 [info] [127.0.0.1][e70cd43c][ManagementConnection] New connection established.
+2024-09-28 20:40:05.157 [info] [127.0.0.1][1f3851fc][ExtensionHostConnection] New connection established.
+2024-09-28 20:40:05.573 [info] [127.0.0.1][1f3851fc][ExtensionHostConnection] <482> Launched Extension Host Process.
+2024-09-28 20:40:17.848 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/root/.vscode-server/data/logs/20240918T185822' failed: No such file or directory (EUNKNOWN) (path: /root)
+2024-09-28 20:40:17.849 [error] [File Watcher (universal)] inotify_add_watch on '/root/.vscode-server/data/logs/20240918T185822' failed: No such file or directory
+2024-09-28 22:05:16.741 [info] [127.0.0.1][e70cd43c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-28 22:05:16.925 [info] [127.0.0.1][1f3851fc][ExtensionHostConnection] <482> Extension Host Process exited with code: 0, signal: null.

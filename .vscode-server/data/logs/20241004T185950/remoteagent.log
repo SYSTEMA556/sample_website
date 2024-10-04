@@ -1,0 +1,31 @@
+2024-10-04 18:59:50.264 [info] 
+
+
+
+
+2024-10-04 18:59:50.289 [info] Extension host agent started.
+2024-10-04 18:59:50.437 [info] [127.0.0.1][dc6aed52][ManagementConnection] New connection established.
+2024-10-04 18:59:51.217 [info] [127.0.0.1][9b180838][ExtensionHostConnection] New connection established.
+2024-10-04 18:59:51.377 [info] [127.0.0.1][9b180838][ExtensionHostConnection] <486> Launched Extension Host Process.
+2024-10-04 19:00:07.973 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/root/.vscode-server/data/logs/20240921T215807/exthost1/output_logging_20240921T215810' failed: No such file or directory (EUNKNOWN) (path: /root)
+2024-10-04 19:00:07.974 [error] [File Watcher (universal)] inotify_add_watch on '/root/.vscode-server/data/logs/20240921T215807/exthost1/output_logging_20240921T215810' failed: No such file or directory
+2024-10-04 19:00:37.176 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:37.177 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:37.430 [info] Installing extension: ms-ceintl.vscode-language-pack-ja {"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:43.940Z"},"pinned":false,"isApplicationScoped":true,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-10-04 19:00:37.434 [info] Extension is already requested to install ms-ceintl.vscode-language-pack-ja file:///root/.vscode-server/extensions/extensions.json
+2024-10-04 19:00:43.003 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-ja: Success. Executed: true. Duration: 4496ms.
+2024-10-04 19:00:43.334 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.94.2024100209: ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:43.346 [info] Renamed to /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.94.2024100209
+2024-10-04 19:00:43.372 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ja-1.93.2024091109
+2024-10-04 19:00:43.377 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:43.434 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja file:///root/.vscode-server/extensions/extensions.json
+2024-10-04 19:00:45.224 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/3b606f7b-25d8-4f40-848e-f1456090eb8b
+2024-10-04 19:00:45.230 [info] Installing extension: ms-ceintl.vscode-language-pack-ja {"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:43.940Z"},"pinned":false,"isApplicationScoped":true,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-10-04 19:00:45.231 [info] Installing the extension without checking dependencies and pack ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:45.259 [info] Removed the extension from uninstalled list: ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:45.285 [info] Deleted removeExisting extension from disk ms-ceintl.vscode-language-pack-ja /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.93.2024091109
+2024-10-04 19:00:45.552 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.93.2024091109: ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:45.564 [info] Renamed to /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.93.2024091109
+2024-10-04 19:00:45.583 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ja-1.94.2024100209
+2024-10-04 19:00:45.590 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-10-04 19:00:45.669 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja file:///root/.vscode-server/extensions/extensions.json

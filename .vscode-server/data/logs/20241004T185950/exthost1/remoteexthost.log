@@ -1,0 +1,47 @@
+2024-10-04 18:59:54.107 [info] Extension host with pid 486 started
+2024-10-04 18:59:54.243 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-10-04 18:59:54.247 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-04 18:59:54.253 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-10-04 18:59:54.257 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-04 18:59:54.260 [info] ExtensionService#_doActivateExtension george-alisson.html-preview-vscode, startup: false, activationEvent: 'onLanguage:html'
+2024-10-04 18:59:54.261 [info] ExtensionService#_doActivateExtension igordvlpr.open-in-browser, startup: false, activationEvent: 'onLanguage:html'
+2024-10-04 18:59:55.928 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-04 18:59:55.974 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-04 18:59:55.992 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-04 18:59:55.994 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-04 18:59:56.031 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/7357c8406dd7ab776bfe1fd154ad47e5/vscode.lock': Lock acquired.
+2024-10-04 18:59:57.072 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-04 18:59:57.073 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-04 18:59:58.748 [info] Eager extensions activated
+2024-10-04 18:59:58.750 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 18:59:58.752 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 18:59:58.753 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 19:00:00.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 417
+2024-10-04 19:00:01.191 [error] Error: No such branch: main.
+	at N.getBranch (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:941737)
+2024-10-04 19:00:01.268 [error] Error: No such branch: main.
+	at N.getBranch (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:941737)
+2024-10-04 19:00:01.523 [warning] [Decorations] CAPPING events from decorations provider vscode.git 417
+2024-10-04 21:41:00.212 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-04 21:41:05.642 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-04 22:27:04.801 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-10-04 23:02:44.375 [error] Error: No such branch: main.
+	at N.getBranch (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/main.js:2:941737)

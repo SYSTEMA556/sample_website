@@ -1,7 +1,0 @@
-2024-09-08 19:58:18.190 [info] Expanding terminal instance, old id 988611df70b6445afdd99de613fad909-1 -> new id undefined
-2024-09-08 19:58:18.191 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty on pty host
-2024-09-08 19:58:46.036 [info] Revived process, old id 57b278baad21d57c903d0e4c12167448-2 -> new id 4
-2024-09-08 19:58:46.083 [info] Expanding terminal instance, old id 57b278baad21d57c903d0e4c12167448-2 -> new id 4
-2024-09-08 19:58:46.681 [warning] Persistent process "4": Process had no disconnect runners but was an orphan
-2024-09-08 19:58:46.681 [info] Persistent process reconnection "4"
-2024-09-08 19:58:46.759 [info] Persistent process "4": Replaying 86 chars and 1 size events
