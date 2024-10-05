@@ -750,3 +750,11 @@
 	at ChildProcess.<anonymous> (/root/.vscode-server/bin/d78a74bcdfad14d5d3b1b782f87255d802b57511/extensions/git/dist/main.js:2:1032509)
 	at ChildProcess.emit (node:events:531:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-10-05 12:35:52.304 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onDebug'
+2024-10-05 12:35:53.637 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-10-05 12:35:56.176 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-chrome'
+2024-10-05 12:36:42.753 [error] CodeExpectedError: ユーザー設定に書き込めません。ユーザー設定を開いて、ファイル内のエラー/警告を修正してからもう一度お試しください。
+    at $it.y (vscode-file://vscode-app/c:/Users/user/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:11660)
+    at $it.o (vscode-file://vscode-app/c:/Users/user/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:9128)
+    at $it.n (vscode-file://vscode-app/c:/Users/user/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:9019)
+    at async Object.factory (vscode-file://vscode-app/c:/Users/user/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:8769)
