@@ -1,0 +1,103 @@
+2024-10-05 11:56:29.917 [info] [main] ログ レベル: Info
+2024-10-05 11:56:29.917 [info] [main] Git の検証が検出されました: "git"
+2024-10-05 11:56:29.917 [info] [main] "git" から Git "2.34.1" を使用しています
+2024-10-05 11:56:29.917 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-05 11:56:29.917 [info] > git rev-parse --show-toplevel [19ms]
+2024-10-05 11:56:29.917 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-10-05 11:56:29.917 [info] [Model][openRepository] Opened repository: /root
+2024-10-05 11:56:29.928 [info] > git rev-parse --show-toplevel [39ms]
+2024-10-05 11:56:29.930 [info] > git config --get commit.template [45ms]
+2024-10-05 11:56:29.945 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-05 11:56:29.952 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-05 11:56:29.960 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-05 11:56:29.967 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-05 11:56:29.976 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-05 11:56:29.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2024-10-05 11:56:29.983 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-05 11:56:29.997 [info] [Model][openRepository] Opened repository: /root/.rbenv
+2024-10-05 11:56:30.010 [info] > git config --get commit.template [6ms]
+2024-10-05 11:56:30.012 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-05 11:56:30.042 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-10-05 11:56:30.050 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-05 11:56:30.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2024-10-05 11:56:30.057 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-05 11:56:30.061 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-10-05 11:56:30.067 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2024-10-05 11:56:30.076 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-05 11:56:30.081 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-05 11:56:30.118 [info] > git status -z -uall [48ms]
+2024-10-05 11:56:30.120 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [45ms]
+2024-10-05 11:56:30.144 [info] > git rev-parse --show-toplevel [59ms]
+2024-10-05 11:56:30.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-10-05 11:56:30.161 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2024-10-05 11:56:30.171 [info] [Model][openRepository] Opened repository: /root/repos
+2024-10-05 11:56:30.173 [info] > git config --get commit.template [24ms]
+2024-10-05 11:56:30.183 [info] > git config --local branch.master.vscode-merge-base [24ms]
+2024-10-05 11:56:30.193 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-05 11:56:30.193 [info] > git config --get commit.template [16ms]
+2024-10-05 11:56:30.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-10-05 11:56:30.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [11ms]
+2024-10-05 11:56:30.233 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-05 11:56:30.235 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.rbenv/.git/refs/remotes/origin/master'
+2024-10-05 11:56:30.239 [info] > git status -z -uall [222ms]
+2024-10-05 11:56:30.240 [info] > git merge-base refs/heads/master refs/remotes/origin/master [35ms]
+2024-10-05 11:56:30.246 [info] > git rev-parse --show-toplevel [50ms]
+2024-10-05 11:56:30.253 [info] > git diff --name-status -z --diff-filter=ADMR c335ab83de40d48093870d300de52c61bbd68359...refs/remotes/origin/master [8ms]
+2024-10-05 11:56:30.254 [info] > git rev-parse refs/remotes/origin/master [19ms]
+2024-10-05 11:56:30.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-10-05 11:56:30.262 [warning] [Git][getBranch] No such branch: main
+2024-10-05 11:56:32.453 [info] > git status -z -uall [2195ms]
+2024-10-05 11:56:32.453 [info] > git status -z -uall [2188ms]
+2024-10-05 11:56:32.454 [info] > git check-ignore -v -z --stdin [743ms]
+2024-10-05 11:56:32.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1868ms]
+2024-10-05 11:56:32.477 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2208ms]
+2024-10-05 11:56:32.509 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2247ms]
+2024-10-05 11:56:32.527 [info] > git rev-parse --git-dir --git-common-dir [2276ms]
+2024-10-05 11:56:32.546 [info] [Model][openRepository] Opened repository: /root/sample_website
+2024-10-05 11:56:32.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [108ms]
+2024-10-05 11:56:32.601 [warning] [Git][getBranch] No such branch: main
+2024-10-05 11:56:32.607 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2024-10-05 11:56:32.609 [info] > git config --local branch.main.vscode-merge-base [131ms]
+2024-10-05 11:56:32.609 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-05 11:56:32.619 [info] > git config --get commit.template [899ms]
+2024-10-05 11:56:32.637 [info] > git rev-parse --show-toplevel [40ms]
+2024-10-05 11:56:32.638 [info] > git config --get commit.template [50ms]
+2024-10-05 11:56:32.638 [info] > git config --get commit.template [55ms]
+2024-10-05 11:56:32.706 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-05 11:56:32.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2024-10-05 11:56:32.717 [info] > git reflog main --grep-reflog=branch: Created from *. [102ms]
+2024-10-05 11:56:32.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-10-05 11:56:32.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2024-10-05 11:56:32.737 [warning] [Git][getBranch] No such branch: main
+2024-10-05 11:56:32.746 [info] > git rev-parse --show-toplevel [92ms]
+2024-10-05 11:56:32.753 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-05 11:56:32.797 [info] > git status -z -uall [66ms]
+2024-10-05 11:56:32.797 [info] > git status -z -uall [56ms]
+2024-10-05 11:56:32.798 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [54ms]
+2024-10-05 11:56:32.805 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [69ms]
+2024-10-05 11:56:32.814 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [92ms]
+2024-10-05 11:56:32.815 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-05 11:56:32.815 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-05 11:56:32.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [82ms]
+2024-10-05 11:56:32.921 [info] > git config --local branch.main.vscode-merge-base [15ms]
+2024-10-05 11:56:32.921 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-05 11:56:32.929 [info] > git config --get commit.template [87ms]
+2024-10-05 11:56:32.930 [info] > git merge-base refs/heads/main refs/remotes/origin/main [112ms]
+2024-10-05 11:56:32.993 [info] > git check-ignore -v -z --stdin [13ms]
+2024-10-05 11:56:32.999 [info] > git diff --name-status -z --diff-filter=ADMR bd9d16f278f7c1f9d552dfe2d34230c84e18e4f0...refs/remotes/origin/main [57ms]
+2024-10-05 11:56:33.009 [info] > git reflog main --grep-reflog=branch: Created from *. [79ms]
+2024-10-05 11:56:33.014 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [104ms]
+2024-10-05 11:56:34.453 [info] > git check-ignore -v -z --stdin [1464ms]
+2024-10-05 11:56:34.455 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1442ms]
+2024-10-05 11:56:34.455 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-05 11:56:34.455 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-05 11:56:34.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1590ms]
+2024-10-05 11:56:34.663 [info] > git status -z -uall [1759ms]
+2024-10-05 11:56:34.663 [info] > git status -z -uall [20ms]
+2024-10-05 11:56:34.719 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [67ms]
+2024-10-05 11:56:36.949 [info] > git check-ignore -v -z --stdin [243ms]
+2024-10-05 11:56:36.952 [info] > git check-ignore -v -z --stdin [243ms]
+2024-10-05 11:56:36.952 [info] > git show --textconv :SYSTEMA556.github.io/_site/index.html [224ms]
+2024-10-05 11:56:37.062 [info] > git ls-files --stage -- /root/repos/SYSTEMA556.github.io/_site/index.html [328ms]
+2024-10-05 11:57:29.777 [info] > git show --textconv :SYSTEMA556.github.io/_site/index.html [4ms]
+2024-10-05 11:57:29.778 [info] > git ls-files --stage -- /root/repos/SYSTEMA556.github.io/_site/index.html [2ms]

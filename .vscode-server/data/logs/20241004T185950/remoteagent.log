@@ -29,3 +29,5 @@
 2024-10-04 19:00:45.583 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ja-1.94.2024100209
 2024-10-04 19:00:45.590 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
 2024-10-04 19:00:45.669 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja file:///root/.vscode-server/extensions/extensions.json
+2024-10-04 23:45:01.381 [info] [127.0.0.1][dc6aed52][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-04 23:45:01.776 [info] [127.0.0.1][9b180838][ExtensionHostConnection] <486> Extension Host Process exited with code: 0, signal: null.
