@@ -1,0 +1,14 @@
+2024-10-06 20:43:59.519 [info] l10n: Problems loading vscode-local:/c%3A/Users/user/.vscode/extensions/ms-ceintl.vscode-language-pack-ja-1.94.2024100209/translations/extensions/vscode.json-language-features.i18n.json : Error: Unsupported protocol
+2024-10-06 20:54:41.390 [info] read schema from vscode: vscode://schemas/settings/user
+2024-10-06 20:54:41.468 [info] schema change detected vscode://schemas/settings/user
+2024-10-06 20:54:41.709 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2024-10-06 20:54:41.729 [info] read schema from vscode: vscode://schemas/launch
+2024-10-06 20:54:41.734 [info] read schema from vscode: vscode://schemas/token-styling
+2024-10-06 20:54:41.735 [info] read schema from vscode: vscode://schemas/textmate-colors
+2024-10-06 20:54:41.735 [info] read schema from vscode: vscode://schemas/workbench-colors
+2024-10-06 20:54:41.739 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2024-10-06 20:54:42.077 [info] cancelled
+2024-10-06 20:54:42.078 [info] read schema from vscode: vscode://schemas/settings/user
+2024-10-06 20:55:00.814 [info] schema change detected vscode://schemas/settings/user
+2024-10-06 21:33:30.321 [info] schema change detected vscode://schemas/settings/user
+2024-10-06 21:33:32.570 [info] schema change detected vscode://schemas/launch
