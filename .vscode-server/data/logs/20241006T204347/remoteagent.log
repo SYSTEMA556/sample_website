@@ -11,3 +11,12 @@
 
 2024-10-06 20:44:13.592 [error] [File Watcher] Unexpected error: inotify_add_watch on '/root/.vscode-server/data/logs/20240924T053236/exthost1/vscode.json-language-features' failed: No such file or directory (EUNKNOWN) (path: /root)
 2024-10-06 20:44:13.594 [error] [File Watcher (universal)] inotify_add_watch on '/root/.vscode-server/data/logs/20240924T053236/exthost1/vscode.json-language-features' failed: No such file or directory
+2024-10-06 22:30:14.459 [info] [127.0.0.1][c3217552][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-06 22:30:14.744 [info] [127.0.0.1][42adf20d][ExtensionHostConnection] <507> Extension Host Process exited with code: 0, signal: null.
+2024-10-06 22:30:18.153 [info] [127.0.0.1][70ce4e9b][ManagementConnection] New connection established.
+2024-10-06 22:30:18.624 [info] [127.0.0.1][9d48f608][ExtensionHostConnection] New connection established.
+2024-10-06 22:30:18.648 [info] [127.0.0.1][9d48f608][ExtensionHostConnection] <40911> Launched Extension Host Process.
+2024-10-06 22:30:18.866 [info] [127.0.0.1][9d48f608][ExtensionHostConnection] <40911><stderr> Error reading NLS messages file /root/.vscode-server/data/clp/bae69e1f710f458a47c748517e275923.ja/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json: Error: ENOENT: no such file or directory, open '/root/.vscode-server/data/clp/bae69e1f710f458a47c748517e275923.ja/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json'
+
+2024-10-06 22:32:46.879 [info] [127.0.0.1][70ce4e9b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-06 22:32:47.071 [info] [127.0.0.1][9d48f608][ExtensionHostConnection] <40911> Extension Host Process exited with code: 0, signal: null.
